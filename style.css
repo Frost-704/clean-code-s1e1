@@ -35,11 +35,13 @@
 .add-task {
   display: flex;
 }
-#todo-list,#completed-tasks {
+#todo-list,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.task,.main-button {
+.task,
+.main-button {
   outline: none;
 }
 .main-button {
@@ -98,7 +100,8 @@
   justify-content: space-between;
   align-items: center;
 }
-.done,.not-done {
+.done,
+.not-done {
   margin: 0 10px;
   vertical-align: middle;
 }
