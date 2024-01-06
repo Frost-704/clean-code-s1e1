@@ -39,7 +39,7 @@
   margin: 0;
   padding: 0px;
 }
-.task,.main-button{
+.task,.main-button {
   outline: none;
 }
 .main-button {
@@ -109,7 +109,7 @@
   width: 226px;
 }
 .input-field {
-  width: 226px
+  width: 226px;
 }
 .remove-task {
   height: 2em;
@@ -121,19 +121,19 @@
 }
 
 /* Completed */
-.completed-tasks .task-name {
-  text-decoration: line-through
+#completed-tasks .task-name {
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .hidden {
-  display: none
+  display: none;
 }
 
 .edit-task .editable {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-task .task-name {
