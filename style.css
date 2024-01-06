@@ -13,7 +13,7 @@ body {
 .eisenhower-matrix img {
   width: 100%;
 }
-.eisenhower-matrix .more-inf {
+.eisenhower-matrix .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .eisenhower-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.add-to-list {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-task {
   display: flex;
 }
 ul {
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-Mode input[type=text] {
+ul li.edit-task input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-Mode label {
+ul li.edit-task label {
   display:none;
 }
